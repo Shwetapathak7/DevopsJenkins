@@ -9,7 +9,7 @@ public class NewTest {
   @Test
   public void f() {
 	  System.out.println("This is my test project");
-	  System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver","C:\\chromedriver_win32\\chromedriver.exe");
 	  //launch chrome browser
 	  WebDriver driver=new ChromeDriver();
 	  //open the application
