@@ -18,8 +18,7 @@ public class NewTest {
 	  //enter username
 	  driver.findElement(By.name("userName")).sendKeys("mercury");
 	  driver.findElement(By.name("password")).sendKeys("mercury");
-	  driver.findElement(By.name("login")).click();
-	  driver.close();
+	  //driver.close();
 	  
   }
 } 
